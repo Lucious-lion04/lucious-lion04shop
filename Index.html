@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services de Création Numérique</title>
+    <meta name="description" content="Services de création numérique incluant des filtres Snapchat personnalisés, la localisation d'entreprise et la création de sites web.">
+    <meta name="keywords" content="filtres Snapchat, localisation entreprise, création site web, services numériques">
+    <meta name="robots" content="index, follow">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #4CAF50, #2196F3);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        .service {
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .service h2 {
+            font-size: 24px;
+            margin-top: 0;
+        }
+        .service p {
+            font-size: 16px;
+            color: #666;
+        }
+        .price {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        .order-button {
+          background-color: #007BFF; 
+          color: #fff; 
+          padding: 12px 24px; 
+          border-radius: 25px; 
+          cursor: pointer; 
+          box-shadow: 0 4px 10px rgba(0,123,255,0.3); 
+          transition: background-color 0.3s ease, transform 0.3s ease; 
+          margin-top: 15px; 
+          border:none; 
+        }
+        .order-button:hover {
+          background-color: #0056b3; 
+          transform: translateY(-3px); 
+        }
+        .creator-name {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 9999;
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 10px 20px;
+            border-bottom-right-radius: 50px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, opacity 0.3s ease;
+            cursor:pointer ;
+        }
+        
+        .hide {
+           opacity :0 ;
+           transform :translateY(-50 px);
+       }
+       .description {
+           color :#ff5722 ;
+           font-weight :bold ;
+       }
+       a {
+           color :#2196F3 ;
+           text-decoration :none ;
+       }
+       a:hover {
+           text-decoration :underline ;
+       }
+       .small-box-container {
+           display :flex ;
+           justify-content :space-around ;
+           margin-top :20 px ;
+           width :100% ;
+       }
+       .small-box {
+           width :30% ;
+           max-width :90 px ;
+           background-color :#fff ;
+           padding :20 px ;
+           border :2 px solid transparent ;
+           border-radius :10 px ;
+           box-shadow :0     10 px rgba (  ) ,    ) ; 
+           transition:border-color  ease ; 
+           overflow:hidden ; 
+           display:flex ; 
+           flex-direction :column ; 
+           justify-content :space-between ; 
+           align-items:center ; 
+       } 
+       .small-box h3 { 
+           margin :  ; 
+           font-size :18 px ; 
+           color :blue ; 
+           text-align:center ; 
+       } 
+       .small-box p { 
+           margin-top :10 px ; 
+           font-size :14 px ; 
+           color:#666 ; 
+           text-align:center ; 
+       } 
+       .small-box a { 
+           text-decoration:none ; 
+       } 
+       .small-box.yellow { 
+           border-color :yellow ; 
+       } 
+       .small-box.green { 
+           border-color :green ; 
+       } 
+       .small-box.red { 
+           border-color:red ; 
+
+       /* Modal styles */
+       .modal {
+          display:none; /* Hidden by default */
+          position:fixed; /* Stay in place */
+          z-index:1; /* Sit on top */
+          left:0; top:0; width:100%; height:100%; overflow:auto; /* Full width and height */
+          background-color:black; /* Fallback color */
+          background-color:rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      .modal-content {
+          background-color:#fefefe; margin:auto; padding:20px; border-radius:5px; width:80%;
+      }
+      .close {
+          color:#aaa; float:right; font-size:28px; font-weight:bold;
+      }
+      .close:hover,
+      .close:focus {
+          color:black; text-decoration:none; cursor:pointer;
+      }
+
+
+
+
+    </style>
+</head>
+<body>
+
+
+<a href="https://www.snapchat.com/add/lucious-lion04?share_id=E2B3bwMxt0U&locale=fr-FR" target="_blank">
+    <div class="creator-name" aria-label="Nom du créateur">OLDEST</div>
+</a>
+
+<header>
+    <h1>Service de création numérique avec ma signature</h1>
+</header>
+<div class="container">
+    <!-- Service de Filtres Snapchat -->
+    <div class="service">
+        <h2>Création de Filtres Snapchat Personnalisés</h2>
+        <p>Obtenez des filtres Snapchat uniques et personnalisés pour vos événements, mariages, fêtes d'anniversaire, ou pour promouvoir votre entreprise. Prix : <span class="price">45 €</span>. Exemple : <span class="description"><a href="https://lens.snapchat.com/51f227930cb9470f999d4b89cf475625?share_id=TyI6hFace_8&locale=fr-FR">Cliquez sur ce lien pour voir un exemple de filtre</a></span></p>
+        
+        <blockquote class="snapchat-embed" data-snapchat-embed-width="306" data-snapchat-embed-height="481" data-snapchat-embed-url="https://www.snapchat.com/lens/51f227930cb9470f999d4b89cf475625/embed" data-snapchat-embed-style="border-radius:40px;" data-snapchat-embed-title="Lens FOOD TRUCK OL" style="background:#C4C4C4;border-radius:.5);margin:max-width:min-width;padding;width:-webkit-calc(100% -2);width:-calc(100% -2);display:flex;height"><div style=""><a title="Lens FOOD TRUCK OL" href="https://www.snapchat.com/lens/51f227930cb9470f999d4b89cf475625" style=""></a><div style=""></div></div><div style=""></div><div style=""><a title="Lens FOOD TRUCK OL" href="https://www.snapchat.com/lens/51f227930cb9470f999d4b89cf475625" style="">View more on Snapchat</a></div></blockquote><script async src="https://www.snapchat.com/embed.js"></script>          
+        
+        <button class="order-button" aria-label="Commander un filtre Snapchat personnalisé" onclick="document.getElementById('orderModal').style.display='block'">Commander un filtre</button>
+    </div>
+
+    <!-- Service de Localisations -->
+    <div class="service">
+        <h2>Création de Localisations pour Votre Entreprise</h2>
+        <p>Nous créons des localisations personnalisées pour votre entreprise, afin que vos clients puissent facilement vous trouver sur la carte <span class="map">map snapchat</span>. Prix : <span class="price">70 €</span>.</p>
+        
+        <div class="image-container">
+            <img src="https://mcusercontent.com/40a9f1a77d46874eba2309d88/images/13751a45-b5c0-d087-c33b-c7c8999cf15f.jpg" alt="Exemple de localisation d'entreprise sur Snapchat" width="300">
+        </div>
+        <p class="description">Cliquez sur ce lien pour voir un exemple : <a href="https://t.snapchat.com/MBfTkatp" target="_blank" class="map">Voir l'exemple</a></p>
+
+        <button class ="order-button "aria-label ="Commander une localisation personnalisée "onclick ="document.getElementById('orderModal').style.display='block' ">Commander une localisation </button>
+    </div>
+
+    <!-- Service de Création de Sites Web -->
+    <div class ="service ">
+        <h2 >Création de Sites Web </h2 >
+        <p >Je propose mes services de conception de sites web professionnels et conviviaux pour votre entreprise ou votre projet personnel. De plus , je crée chaque site en code HTML , assurant ainsi sa longévité et son autonomie vis-à-vis des plateformes comme Wix ou d'autres sites payants prix :</p >
+        <span class ="price ">80 €,130 €,160 €</span > selon la complexité.</p >
+
+        <button class ="order-button "aria-label ="Commander un site web "onclick ="document.getElementById('orderModal').style.display='block' ">Commander un site web </button>
+
+        <div class ="small-box-container ">
+            <div class ="small-box yellow ">
+                <a href ="lien_vers_page_jaune.html ">
+                    <h3>FOOD Restauration</h3>
+                    <p>COMMANDEZ.</p>
+                </a>
+            </div>
+            <div class="small-box green">
+                <a href="lien_vers_page_vert.html">
+                    <h3>"Coiffeur(euse)"</h3>
+                    <p>Accessoires.</p>
+                </a>
+            </div>
+            <div class="small-box red">
+                <a href="lien_vers_page_rouge.html">
+                    <h3>Service de V.T.S</h3>
+                    <p>Description.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section Contact -->
+    <div class="service">
+        <h2>Contact</h2>
+        <p>Pour plus d'informations ou pour passer commande, veuillez nous contacter à l'adresse email suivante : <a href="mailto:oldestlucious@gmail.com">oldestlucious@gmail.com</a> ou par téléphone au : <span class="map">07 44 89 27 83</span></p>
+    </div>
+
+    <!-- Réunion Webex -->
+    <div class="service">
+        <h2>Réunion Webex</h2>
+        <p>Rejoignez notre réunion Webex pour discuter de vos besoins en création numérique : 
+            <a href="https://meet374.webex.com/meet/pr27420501817">
+                <button class="order-button" aria-label="Rejoindre la réunion Webex">Rejoindre la réunion</button>
+            </a>
+        </p>
+    </div>
+
+    <!-- Modal Form -->
+    <div id="orderModal" class="modal" role="dialog" aria-modal="true">
+        <div class="modal-content">
+            <span class="close" onclick="document.getElementById('orderModal').style.display='none'">&times;</span>
+
+            <!-- Formulaire de Commande -->
+            <form action="https://formspree.io/f/{your-form-id}" method="POST">
+                <h2>Formulaire de Commande</h2>
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="_replyto" required><br><br>
+
+                <label for="service">Service:</label>
+                <select id="service" name="service">
+                    <option value="filtre">Filtre Snapchat</option>
+                    <option value="localisation">Localisation Entreprise</option>
+                    <option value="siteweb">Création de Site Web</option>
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+                <button type="submit">Envoyer</button>
+            </form>
+
+        </div>
+    </div>
+
+<script>
+// Close modal when clicking outside of it
+window.onclick = function(event) {
+    var modal = document.getElementById('orderModal');
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<style>
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0; top: 0; width: 100%; height: 100%; overflow: auto; /* Full width and height */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modal-content {
+    background-color: #fefefe; 
+    margin: auto; 
+    padding: 20px; 
+    border-radius: 5px; 
+    width: 80%;
+}
+.close {
+    color: #aaa; 
+    float: right; 
+    font-size: 28px; 
+    font-weight: bold;
+}
+.close:hover,
+.close:focus {
+    color: black; 
+    text-decoration: none; 
+    cursor: pointer;
+}
+</style>
+
+
+<script>
+// Example of adding an event listener to the buttons
+document.querySelectorAll('.order-button').forEach(button => {
+button.addEventListener('click', function() {
+// The modal opening is handled by the onclick attribute in the button
+});
+});
+</script>
+
+</body>
+  </html>
